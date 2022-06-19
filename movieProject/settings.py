@@ -55,7 +55,7 @@ ROOT_URLCONF = 'movieProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'movie/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'es-Es'
+LANGUAGE_CODE = 'en-En'
 
 TIME_ZONE = 'UTC'
 
